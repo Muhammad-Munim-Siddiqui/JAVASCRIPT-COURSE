@@ -14,10 +14,70 @@ There are Few typs of operators in Java Script.
 
 1. Arithmetic Operators
 
-Arithmetic Operators are 
+Arithmetic Operators are :
+1. +	Addition
+2. -	Subtraction
+3. *	Multiplication
+4. **	Exponentiation (ES2016)
+5. /	Division
+6. %	Modulus (Remainder)
+7. ++	Increment
+8. --	Decrement
+
+The numbers (in an arithmetic operation) are called operands.
+
+The operation (to be performed between the two operands) is defined by an operator.
+
+2. Assignment Operators
+
+Assignment Operators are:
+
+   Operator	    Example  	Same As
+1. =	        x = y	     x = y
+2. +=	        x += y	     x = x + y
+3. -=	        x -= y	     x = x - y
+4. *=	        x *= y	     x = x * y
+5. /=	        x /= y	     x = x / y
+6. %=	        x %= y	     x = x % y
+7. **=	        x **= y      x = x ** y
 
 
+3. Comparison Operators
 
+Comparison Operators are:
+
+Operator	Description
+==	equal to
+===	equal value and equal type
+!=	not equal
+!==	not equal value or not equal type
+>	greater than
+<	less than
+>=	greater than or equal to
+<=	less than or equal to
+?	ternary operator
+
+4. String Operators
+
+The + can also be used to add (concatenate) strings,
+The += assignment operator can also be used to add (concatenate) strings.
+
+
+5. Logical Operators
+
+Logical Operators are :
+
+Operator	    Description
+  &&	        logical and
+  ||	        logical or
+  !	            logical not
+
+
+6. Bitwise Operators
+
+Bit operators work on 32 bits numbers.
+
+Any numeric operand in the operation is converted into a 32 bit number. The result is converted back to a JavaScript number.
 
 
 7. Ternary Operators
@@ -35,6 +95,9 @@ age <= 18 ? "you are a adult" : "you are a minor";
  like: console.log(typeOf(4));
  that return number which is it type
 
+Operator	    Description
+typeof	        Returns the type of a variable
+instanceof	    Returns true if an object is an instance of an object type
 
 9. FAMILIAR & UNFAMILIAR OPERATORS (Math expressions)
 
