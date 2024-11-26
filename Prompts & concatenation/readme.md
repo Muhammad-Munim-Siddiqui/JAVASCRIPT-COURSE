@@ -1,3 +1,4 @@
 1. Concatenation 
 
-Concatenation in the string 
+Concatenation means to add two or more string, numbers.
+It return string.

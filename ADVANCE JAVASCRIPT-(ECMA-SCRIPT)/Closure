@@ -1,0 +1,9 @@
+Lexical Scope:
+
+A function has access to variables defined in its own scope, in the scope of its parent functions, and in the
+global scope.
+
+closures
+
+it means that the function has access to variables defined in its own scope and in the global scope and also
+of its parent functions scope. 

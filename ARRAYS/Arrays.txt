@@ -1,0 +1,37 @@
+Array 
+      
+      Array is the container. which can store the different types of variables :
+
+      let mixedArray = [1, "Bob", "Now is", true];
+
+It consist of the boolean , number , string 
+     
+        we can also do like this :
+
+    console.log("welcome" + mixedArray[1]);
+
+    it will return "welcome Bob".
+
+-----------------------------------------------------------------------------------------------------------
+
+you can declare an empty variable, one that doesn't
+have a value. Then you can assign it a value whenever you like. And you can change its value
+at will. You can do all these things with an array, as well.
+
+let pets = [];
+
+    Assume that the array pets has already been declared. This is how you assign values to
+    it.
+
+1 pets[0] = "dog";
+2 pets[1] = "cat";
+3 pets[2] = "bird";
+
+    you can over right the value after writing a value of the same index like:
+
+pets[2] = "lion";
+
+   this will return the value lion from the pets[2] not cat.
+
+   the pets array is
+   ["dog","lion","bird"];

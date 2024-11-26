@@ -1,0 +1,55 @@
+if else are use like :
+if a is greater then b then print a else if the b is less then c then print c else print b.
+in code :
+if(a > b){
+    console.log(a);
+}else if(b < c){
+    console.log(c);
+}else{ 
+    console.log(b);
+}
+-----------------------------------------------------------------------------------------------------------
+it have all the statments: 
+1: if,                  
+if(condition){
+    body
+}
+2: else if,             
+else if(condition){
+    body
+}
+3: if ..else,           
+if(condition){
+    body
+}else{
+    body
+}
+
+--------------------------------------------------------------------------------------------------------------
+
+NESTED if statment :
+
+Check out this code.
+1 if ((x === y || a === b) && c === d) {
+2 g = h;
+3 }
+4 else {
+5 e = f;
+6 }
+In the code above, if either of the first conditions is true, and, in addition, the third
+condition is true, then g is assigned h. Otherwise, e is assigned f.
+There's another way to code this, using nesting.
+1 if (c === d) {
+2 if (x === y) {
+3 g = h;
+4 }
+5 else if (a === b) {
+6 g = h;
+7 }
+8 else {
+9 e = f;
+10 }
+11 }
+12 else {
+13 e = f;
+14 }

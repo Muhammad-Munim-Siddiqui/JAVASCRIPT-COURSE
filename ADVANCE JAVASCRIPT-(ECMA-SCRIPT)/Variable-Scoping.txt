@@ -1,0 +1,23 @@
+VARIBALE   SCOPING
+
+There are three types of scoping in java script
+1.Global Scoping
+2.Block Scoping/ Local Scoping
+3.Function Scoping
+
+There are three types of Variables is javascript 
+1.Var (Global Scope)
+2.let (Block Scope)
+3.const (Constant)
+
+1 Var 
+var is a Global Scope Variable.
+IT can redeclare and reasine.
+
+2 Let 
+Let is a Block Scope Variable.
+IT can be reasine but not be redeclare.
+
+3. const 
+IT is also Block Scope Variable.
+Tt cann't be redeclare nor be reasine
